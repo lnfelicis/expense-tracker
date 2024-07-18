@@ -1,0 +1,31 @@
+.box-input {
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 8px;
+    display: block;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.button {
+    margin-top: 8px;
+    border: 1px solid #7060be;
+    background-color: #7060be;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}

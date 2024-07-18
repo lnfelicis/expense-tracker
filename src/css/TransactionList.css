@@ -1,0 +1,87 @@
+.container {
+    margin-top: 32px;
+}
+
+/* .transaction-container {
+  width: 400px;
+  height: 165px;
+  overflow-y: auto;
+} */
+
+.box {
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+
+.green-box {
+    width: 5px;
+    height: 100%;
+    background-color: #4caf50;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+
+  .red-box {
+    width: 5px;
+    height: 100%;
+    background-color: #e57373;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+
+  .right-content {
+    margin-left: auto;
+  }
+
+  .remove-button-red {
+    margin-left: 8px;
+    box-sizing: border-box;
+    height: 24px;
+    max-height: 100%;
+    background-color: #e57373;
+    border: none;
+    padding: 8px;
+    color: #f6f6f5;
+    text-align: center;
+    line-height: 10px;
+    transition: transform 0.2s;
+  }
+
+  .remove-button-green {
+    margin-left: 8px;
+    box-sizing: border-box;
+    height: 24px;
+    max-height: 100%;
+    background-color: #4caf50;
+    border: none;
+    padding: 8px;
+    color: #f6f6f5;
+    text-align: center;
+    line-height: 10px;
+    transition: transform 0.2s;
+  }
+
+  .remove-button-green:hover, .remove-button-red:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  }
+
+  /* .transaction-container::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .transaction-container::-webkit-scrollbar-track {
+    background-color: black; 
+  } */
